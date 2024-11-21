@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- fieldset -->
+    <fieldset>
+
+        <!-- legend -->
+        <legend>
+            basic details
+        </legend>
+
+        <!-- form -->
+        <form action="./result.html">
+
+            <!-- email -->
+            <label for="">Email:</label>
+            <input type="email" required><sup style="color: red;">**</sup><br><br>
+
+            <!-- password -->
+            <label for="">Password:</label><br>
+            <input type="password" required minlength="6" maxlength="10"><sup style="color: red;">**</sup><br><br>
+
+            <!-- gender (radio) -->
+            <label for="">choose your gender:</label><br>
+            <input type="radio" name="a"><label for="">Male</label><br>
+            <input type="radio" name="a"><label for="">Female</label><br>
+            <input type="radio" name="a"><label for="">Others</label><br><br>
+
+            <!-- checkbox -->
+            <label for="">Skills:</label><br>
+            <input type="checkbox" name="a"><label for="">Html</label><br>
+            <input type="checkbox" name="a"><label for="">Sql</label><br>
+            <input type="checkbox" name="a"><label for="">CSS</label><br><br>
+
+            <!-- Age(number) -->
+            <label for="">Enter Your Age</label>
+            <input type="number" max="70" min="10"><br><br>
+
+            <!-- Tel(phone number) -->
+            <label for="">Enter Phone Number</label>
+            <input type="tel" minlength="10" maxlength="10" pattern="[6-9]{1}[0-9]{9}"><br><br>
+
+            <!-- date of birth(date) -->
+            <label for="">Enter Dob</label><br><br>
+            <input type="date" min="1995-02-01" max="2024-12-12"><br>
+
+            <!-- submit(button) -->
+            <button>submit</button>
+        </form>
+    </fieldset>
+</body>
+</html>
